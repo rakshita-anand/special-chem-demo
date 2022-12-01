@@ -1,0 +1,134 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color:lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header div {
+    margin-bottom: 8px;
+    padding-bottom: 80px;
+    background-color: white;
+
+}
+
+.main-img {
+    width: 100%;
+}
+
+.s2{
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.s2-img {
+    display:flex;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px 0 0;
+    align-self: auto;
+
+}
+
+h1{
+    font-weight: bold;
+    color: #88b709  ;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.s3{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+}
+.s3-img {
+    width: 20%;
+    height: 100%;
+    float:right;
+    vertical-align:top;
+    margin:10px;
+    align-items: flex-end;
+
+}
+.s{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-top:50px;
+    
+}
+.myDiv {
+    background-color: #88b709;
+    text-align: center;
+    text-decoration: white;
+    height: 40px;
+    width: 128px;
+    color: white;
+}
+
+button{
+    
+    text-align: center;
+    color: white;
+    border: none;
+    border-width: 0px;
+    border-color: #88b709;
+    cursor: pointer;
+}
+.s4{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+}
+
+hr {
+    margin-block-start: 0%;
+    margin-block-end: 0px;
+    border-top: 1px solid gray;
+} 
+
+
+footer{
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top: 50px;
+
+}
